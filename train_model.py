@@ -10,7 +10,7 @@ X = data[["TV", "Radio", "Newspaper"]]
 y = data["Sales"]
 
 # Split train/test
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.4, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
 
 # Train model
 model = LinearRegression()
